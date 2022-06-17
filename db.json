@@ -1,0 +1,67 @@
+{
+  "buildings": [
+    {
+      "name": "Building 8",
+      "meetingRooms": [
+        {
+          "name": "Punjab",
+          "floor": 7,
+          "meetings": [
+            {
+              "title": "Booked for Interview",
+              "date": "17/06/2022",
+              "startTime": "19:00",
+              "endTime": "20:00"
+            }
+          ]
+        },
+        {
+          "name": "Ganga",
+          "floor": 8,
+          "meetings": [
+            {
+              "title": "Booked for Interview",
+              "date": "17/06/2022",
+              "startTime": "01:00",
+              "endTime": "01:55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Building 4",
+      "meetingRooms": []
+    },
+    {
+      "name": "Building 6",
+      "meetingRooms": []
+    }
+  ],
+  "meetingRooms": [
+    {
+      "name": "Punjab",
+      "floor": 7,
+      "building": {
+        "name": "Building 8"
+      },
+      "meetings": [
+        {
+          "title": "Booked for Interview"
+        }
+      ]
+    },
+    {
+      "name": "Ganga",
+      "floor": 8,
+      "building": {
+        "name": "Building 8"
+      },
+      "meetings": [
+        {
+          "title": "Booked for Interview"
+        }
+      ]
+    }
+  ]
+}

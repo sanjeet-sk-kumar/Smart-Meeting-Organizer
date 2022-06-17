@@ -1,0 +1,23 @@
+.list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  margin: 0;
+  padding: 10px;
+}
+
+.list-item:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  height: 40vh;
+  overflow-y: scroll;
+}
+.selected {
+  background-color: beige;
+}

@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(122, 243, 122);
+}
+
+.header {
+  font-weight: 500;
+  font-size: 22px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+}
+
+.add-btn {
+  background-color: #356dc9;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  width: 99%;
+  font-size: 16px;
+  padding: 8px;
+  font-weight: 600;
+  margin: 5px;
+  border: none;
+}
+
+.container-body {
+  width: 50vw;
+}
+.container-footer {
+  width: 50vw;
+}
+
+.row {
+  margin: 5px 0px;
+}
+.new-meeting-container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.row label {
+  margin-right: 60px;
+}
+
+.row .date {
+  margin-right: 97px;
+}
+.row .select {
+  width: 155px;
+  margin-left: 125px;
+  font-size: 15px;
+  /* border: none; */
+  padding: 3px;
+}
+
+.row .end-time {
+  margin-right: 67px;
+}
+
+.row input {
+  width: 150px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
